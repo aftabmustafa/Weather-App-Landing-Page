@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+header {
+  position: relative;
+}
+
+.searchBarAction {
+  position: absolute;
+  right: 0;
+  width: 84vw;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 12px;
+  height: 48px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+section {
+  height: 100%;
+}
+
+.searchComponent {
+  display: flex;
+  align-items: center;
+}
+
+.searchComponent > p {
+  color: #c6cbd3;
+  margin-left: 24px;
+}
+
+.searchIcon {
+  height: 48px;
+  width: 48px;
+  background-color: #f3f6fb;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIcon > img {
+  height: 50%;
+  width: 50%;
+}
+
+.searchBar {
+  height: 48px;
+  margin-left: 72px;
+}
+.searchBar > p {
+  color: #c6cbd3;
+}
+
+.searchBar hr {
+  width: 1000px;
+  border: 1px solid #f4f4f4;
+  border-bottom: none;
+}
+
+.actionCenter {
+  width: 280px;
+  height: 48px;
+  border: 1px solid #f4f4f4;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.actionCenter p {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.bellIcon {
+  height: 24px;
+  width: 24px;
+}
+
+.vl {
+  height: 24px;
+  border-left: 1px solid #f4f4f4;
+  display: inline-block;
+}
+
+.userImg {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.downArrow {
+  width: 16px;
+  height: 16px;
+}

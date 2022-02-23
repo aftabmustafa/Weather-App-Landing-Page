@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+.bgColor {
+  background-color: #6165f7;
+  width: 16%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brandLogoText {
+  display: flex;
+  align-items: center;
+}
+
+.brandLogoText > img {
+  width: 32px;
+  height: 32px;
+  margin: 16px;
+}
+
+.brandLogoText > h2 {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+li img {
+  width: 32px;
+  height: 32px;
+  margin: 16px;
+}
+
+li p {
+  display: inline-block;
+  color: white;
+}
+
+.currentWeatherCard {
+  background-color: white;
+  border-radius: 16px;
+  width: 250px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.currentTopContainer {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currentTopContainer > img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.currentMiddleContainer {
+  text-align: center;
+}
+
+.currentBottomContainer {
+  margin-bottom: 16px;
+}
+
+.currentBottomContainer > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 16px;
+}
+
+.currentBottomContainer > div > p {
+  display: inline-block;
+}
+
+.container {
+  background-color: #dbdff4;
+  width: 218px;
+  border-radius: 8px;
+}
+
+.progressBar {
+  background-color: #fdac47;
+  padding: 0.5%;
+  border-radius: 16px;
+}
+
+.humidity {
+  width: 70%;
+}
+.precipitation {
+  width: 25%;
+}
