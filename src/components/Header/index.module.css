@@ -4,12 +4,18 @@ header {
   position: relative;
 }
 
+button {
+  border: 0;
+  outline: none;
+}
+
 .searchBarAction {
   position: absolute;
+  top: 24px;
   right: 0;
-  width: 84vw;
+  left: 176px;
+  width: 100vw;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 12px;
   height: 48px;
   display: flex;
   justify-content: space-evenly;
@@ -30,6 +36,20 @@ section {
   margin-left: 24px;
 }
 
+.searchComponent > input {
+  width: 48vw;
+  height: 48px;
+  border: 0;
+  border-bottom: 1px solid #f4f4f4;
+  outline: 0;
+  margin-left: 16px;
+}
+
+.searchComponent > input::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  color: #c6cbd3;
+}
+
 .searchIcon {
   height: 48px;
   width: 48px;
@@ -38,6 +58,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .searchIcon > img {

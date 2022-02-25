@@ -6,11 +6,11 @@ import Statistics from '../../assets/LeftNavigation/statistics.png';
 import MapIcon from '../../assets/LeftNavigation/mapIcon.png';
 import Calendar from '../../assets/LeftNavigation/calendar.png';
 import Setting from '../../assets/LeftNavigation/setting.png';
-import CloudMoon from '../../assets/LeftNavigation/cloud-moon.png';
+import Cloud from '../../assets/LeftNavigation/cloud-moon.png';
 
 function LeftNavigation() {
   return (
-    <div className={classes.bgColor}>
+    <div className={classes.leftNavBg}>
       <div className='top-navigation'>
         <div className={classes.brandLogoText}>
           <img src={Logo} alt='logo' />
@@ -19,7 +19,11 @@ function LeftNavigation() {
         <nav>
           <ul>
             <li>
-              <img src={Dashboard} alt='dashboard' />
+              <img
+                src={Dashboard}
+                alt='dashboard'
+                className={classes.dashboardIcon}
+              />
               <p>Dashboard</p>
             </li>
             <li>
@@ -43,7 +47,7 @@ function LeftNavigation() {
       </div>
       <div className={classes.currentWeatherCard}>
         <div className={classes.currentTopContainer}>
-          <img src={CloudMoon} alt='cloud-moon-icon' />
+          <img src={Cloud} alt='cloud-moon-icon' />
           <div>
             <p>Today</p>
             <p>11:44</p>

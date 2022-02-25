@@ -10,9 +10,9 @@ import './App.css';
 function App() {
   return (
     <Fragment>
-      <Header />
+      {/* <Header />
       <WeatherForecast />
-      {/* <PlaceForecast /> */}
+      <PlaceForecast /> */}
       <LeftNavigation />
     </Fragment>
   );

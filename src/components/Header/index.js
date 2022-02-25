@@ -11,13 +11,10 @@ function Header() {
       <div className={classes.searchBarAction}>
         <section>
           <div className={classes.searchComponent}>
-            <div className={classes.searchIcon}>
+            <button className={classes.searchIcon}>
               <img src={search} alt='search-icon' />
-            </div>
-            <p>Search</p>
-          </div>
-          <div className={classes.searchBar}>
-            <hr />
+            </button>
+            <input type='text' placeholder='Search' />
           </div>
         </section>
         <div className={classes.actionCenter}>

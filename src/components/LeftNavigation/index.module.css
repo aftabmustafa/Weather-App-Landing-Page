@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Montserrat';
-}
-
-.bgColor {
+.leftNavBg {
   background-color: #6165f7;
   width: 16%;
   height: 100vh;
@@ -40,6 +33,10 @@ li {
   display: flex;
   align-items: center;
   cursor: pointer;
+}
+
+.dashboardIcon {
+  fill: white;
 }
 
 li img {
