@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
 
-.parentContainer {
+.diffLocationParent {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -10,14 +10,14 @@
   top: 10vh;
 }
 
-.flexContainer {
+.diffLocationCards {
   margin-top: 16px;
   display: flex;
   align-items: center;
   width: 64vw;
 }
 
-.weatherCard {
+.diffLocationCard {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,30 +27,29 @@
   transition: top ease 0.5s;
 }
 
-.weatherCard > p {
+.diffLocationCard > p {
   line-height: 48px;
 }
 
-.weatherCard:hover {
+.diffLocationCard:hover {
   top: -10px;
   color: #6165f7;
 }
 
-.placeCard {
+.diffLocationCardItem {
   width: 200px;
   height: 150px;
-  /* margin: 64px; */
   position: relative;
 }
 
-.placeCard img {
+.diffLocationCardItem img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 16px;
 }
 
-.cornerStats {
+.diffLocationCornerStats {
   width: 64px;
   height: 32px;
   display: flex;
@@ -65,17 +64,17 @@
   margin: -6px;
 }
 
-.cornerStats p {
+.diffLocationCornerStats p {
   font-size: 12px;
   position: inherit;
   right: 24px;
 }
 
-.cornerStats span {
+.diffLocationCornerStats span {
   position: relative;
 }
 
-.cornerStats span img {
+.diffLocationCornerStats span img {
   width: 10px;
   height: 10px;
   position: absolute;

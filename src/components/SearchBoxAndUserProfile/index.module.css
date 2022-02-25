@@ -1,15 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-header {
+/* header {
   position: relative;
-}
+} */
 
-button {
-  border: 0;
-  outline: none;
-}
-
-.searchBarAction {
+.searchBoxAndUserProfile {
   position: absolute;
   top: 24px;
   right: 0;
@@ -22,21 +17,17 @@ button {
   align-items: center;
 }
 
-section {
-  height: 100%;
-}
-
-.searchComponent {
+.searchBox {
   display: flex;
   align-items: center;
 }
 
-.searchComponent > p {
+.searchBox > p {
   color: #c6cbd3;
   margin-left: 24px;
 }
 
-.searchComponent > input {
+.searchBox > input {
   width: 48vw;
   height: 48px;
   border: 0;
@@ -45,12 +36,12 @@ section {
   margin-left: 16px;
 }
 
-.searchComponent > input::placeholder {
+.searchBox > input::placeholder {
   font-family: 'Montserrat', sans-serif;
   color: #c6cbd3;
 }
 
-.searchIcon {
+.searchBoxIcon {
   height: 48px;
   width: 48px;
   background-color: #f3f6fb;
@@ -61,26 +52,12 @@ section {
   cursor: pointer;
 }
 
-.searchIcon > img {
+.searchBoxIcon > img {
   height: 50%;
   width: 50%;
 }
 
-.searchBar {
-  height: 48px;
-  margin-left: 72px;
-}
-.searchBar > p {
-  color: #c6cbd3;
-}
-
-.searchBar hr {
-  width: 1000px;
-  border: 1px solid #f4f4f4;
-  border-bottom: none;
-}
-
-.actionCenter {
+.userProfile {
   width: 280px;
   height: 48px;
   border: 1px solid #f4f4f4;
@@ -90,7 +67,7 @@ section {
   align-items: center;
 }
 
-.actionCenter p {
+.userProfile p {
   font-size: 12px;
   display: inline-block;
 }

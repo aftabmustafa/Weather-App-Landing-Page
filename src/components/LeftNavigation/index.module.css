@@ -50,7 +50,7 @@ li p {
   color: white;
 }
 
-.currentWeatherCard {
+.currentWeather {
   background-color: white;
   border-radius: 16px;
   width: 250px;
@@ -61,44 +61,44 @@ li p {
   margin-bottom: 32px;
 }
 
-.currentTopContainer {
+.currentWeatherTop {
   margin-top: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.currentTopContainer > img {
+.currentWeatherTop > img {
   width: 32px;
   height: 32px;
   margin-right: 8px;
 }
 
-.currentMiddleContainer {
+.currentWeatherMiddle {
   text-align: center;
 }
 
-.currentBottomContainer {
+.currentWeatherBottom {
   margin-bottom: 16px;
 }
 
-.currentBottomContainer > div {
+.currentWeatherBottom > div {
   display: flex;
   justify-content: space-between;
   margin: 4px 16px;
 }
 
-.currentBottomContainer > div > p {
+.currentWeatherBottom > div > p {
   display: inline-block;
 }
 
-.container {
+.progressBar {
   background-color: #dbdff4;
   width: 218px;
   border-radius: 8px;
 }
 
-.progressBar {
+.progressBarOverlay {
   background-color: #fdac47;
   padding: 0.5%;
   border-radius: 16px;

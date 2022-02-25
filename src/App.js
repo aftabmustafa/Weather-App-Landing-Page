@@ -1,19 +1,19 @@
 import { Fragment } from 'react';
 
-import Header from './components/Header';
-import WeatherForecast from './components/WeatherForecast';
+import SearchBoxAndUserProfile from './components/SearchBoxAndUserProfile';
+import DiffLocationForecast from './components/DiffLocationForecast';
 import LeftNavigation from './components/LeftNavigation';
-// import PlaceForecast from './components/PlaceForecast';
+import PlaceForecast from './components/PlaceForecast';
 
 import './App.css';
 
 function App() {
   return (
     <Fragment>
-      {/* <Header />
-      <WeatherForecast />
-      <PlaceForecast /> */}
-      <LeftNavigation />
+      {/* <SearchBoxAndUserProfile /> */}
+      {/* <DiffLocationForecast /> */}
+      <PlaceForecast />
+      {/* <LeftNavigation /> */}
     </Fragment>
   );
 }

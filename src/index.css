@@ -8,6 +8,11 @@ body {
   font-family: 'Montserrat';
 }
 
+button {
+  border: 0;
+  outline: none;
+}
+
 #root {
   position: relative;
 }

@@ -11,7 +11,7 @@ import Cloud from '../../assets/LeftNavigation/cloud-moon.png';
 function LeftNavigation() {
   return (
     <div className={classes.leftNavBg}>
-      <div className='top-navigation'>
+      <div className='top-section'>
         <div className={classes.brandLogoText}>
           <img src={Logo} alt='logo' />
           <h2>METEOROLOG</h2>
@@ -45,8 +45,8 @@ function LeftNavigation() {
           </ul>
         </nav>
       </div>
-      <div className={classes.currentWeatherCard}>
-        <div className={classes.currentTopContainer}>
+      <div className={classes.currentWeather}>
+        <div className={classes.currentWeatherTop}>
           <img src={Cloud} alt='cloud-moon-icon' />
           <div>
             <p>Today</p>
@@ -54,28 +54,30 @@ function LeftNavigation() {
             <p>Mon, 11 January</p>
           </div>
         </div>
-        <div className={classes.currentMiddleContainer}>
+        <div className={classes.currentWeatherMiddle}>
           <h1>
             +4<sup>0</sup>C
           </h1>
           <h1>New York</h1>
           <p>United States</p>
         </div>
-        <div className={classes.currentBottomContainer}>
+        <div className={classes.currentWeatherBottom}>
           <div>
             <p>Humidity:</p>
             <p>70%</p>
           </div>
-          <div className={classes.container}>
-            <div className={`${classes.progressBar} ${classes.humidity}`}></div>
+          <div className={classes.progressBar}>
+            <div
+              className={`${classes.progressBarOverlay} ${classes.humidity}`}
+            ></div>
           </div>
           <div>
             <p>Precipitation:</p>
             <p>25%</p>
           </div>
-          <div className={classes.container}>
+          <div className={classes.progressBar}>
             <div
-              className={`${classes.progressBar} ${classes.precipitation}`}
+              className={`${classes.progressBarOverlay} ${classes.precipitation}`}
             ></div>
           </div>
           <div>
